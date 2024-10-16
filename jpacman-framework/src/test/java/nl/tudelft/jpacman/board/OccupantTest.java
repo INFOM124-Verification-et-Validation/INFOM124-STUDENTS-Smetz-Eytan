@@ -42,7 +42,7 @@ class OccupantTest {
     void testOccupy() {
         Square square = new BasicSquare();
         unit.occupy(square);
-        assertThat(unit.getSquare().equals(square));
+        assertThat(unit.getSquare()==(square));
     }
 
     /**
@@ -56,6 +56,6 @@ class OccupantTest {
         unit.leaveSquare();
         assertThat(unit.hasSquare()==false);
         unit.occupy(square);
-        assertThat(unit.getSquare().equals(square));
+        assertThat(unit.getSquare()==(square));
     }
 }
