@@ -31,7 +31,7 @@ class OccupantTest {
      */
     @Test
     void noStartSquare() {
-        assertThat(unit.hasSquare());
+        assertThat(unit.hasSquare()== false);
     }
 
     /**
