@@ -24,6 +24,7 @@ public final class GhostMapParser extends MapParser {
      * @param levelFactory The factory providing the NPC objects and the level.
      * @param boardFactory The factory to create board elements.
      * @param ghostFactory the factory to create the ghosts.
+     *
      */
     public GhostMapParser(LevelFactory levelFactory, BoardFactory boardFactory,
                           GhostFactory ghostFactory) {
